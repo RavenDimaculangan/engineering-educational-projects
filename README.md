@@ -19,14 +19,14 @@ These projects span three core disciplines within automation engineering: **Dist
 * **System Overview:** A high-precision structural health and pressure monitoring array that translates microscopic mechanical tire strain into linear, readable voltage datasets.
 * **The Engineering Framework:** Deployed a single active strain gauge configured in a quarter-bridge Wheatstone topology. To isolate the microvolt-level sensor delta from ambient electromagnetic noise and common-mode vibrations, an AD620 Instrumentation Amplifier was integrated. 
 * **Calibration Loop:** Computed mathematical transfer functions to establish a specific target gain resistance ($R_G \approx 198.4\ \Omega$) to yield a stable 250x amplification factor without clipping. Utilized a dual-potentiometer calibration array, adjusting the offset trimmer to nullify inherent bridge resistance unbalance (0V baseline) and tuning the gain trimmer to optimize voltage swings to match the ADC's maximum input resolution.
-* * **Project Media & Documentation Vault:** -->**[Access Physical Prototype Videos & Images](https://drive.google.com/drive/folders/1dl5ZplsNCIVTDGVt_5SGVg2Fle-0qkkg?usp=drive_link)**
+* **Project Media & Documentation Vault:** -->**[Access Physical Prototype Videos & Images](https://drive.google.com/drive/folders/1dl5ZplsNCIVTDGVt_5SGVg2Fle-0qkkg?usp=drive_link)**
 
 
 ### 3. Proximity-Adaptive Material Handling & Sensor-Fusion Sorting System
 * **System Overview:** An industrial conveyor prototype engineered to dynamically modulate belt velocities based on target proximity while systematically identifying and classifying materials.
 * **The Engineering Framework:** Fabricated the mechanical structural chassis and integrated proximity sensors to execute adaptive velocity control algorithms. At the sorting junction, an advanced sensor-fusion array was implemented: inductive proximity sensors isolated metallic targets, while capacitive/optical sensors classified non-metallic mediums. 
 * **Execution & Debugging:** Programmed synchronous control loops to drive servo-actuated sorting gates, routing materials into dedicated storage bays while systematically debugging sensor false-positives and reducing hardware-software latency gaps to prevent mechanical jams.
-* * **Project Media & Documentation Vault:** -->**[Access Physical Prototype Videos & Images](https://drive.google.com/drive/folders/1lzPOJXRZCMFwALxu5Po9S3fdhaqKzNMB?usp=drive_link)**
+* **Project Media & Documentation Vault:** -->**[Access Physical Prototype Videos & Images](https://drive.google.com/drive/folders/1lzPOJXRZCMFwALxu5Po9S3fdhaqKzNMB?usp=drive_link)**
 
 
 ### 4. Discrete Analog Multi-Stage Thermal Management Array
